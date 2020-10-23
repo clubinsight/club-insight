@@ -1,11 +1,4 @@
-// src/index.js
-
-// Bootstrap Vue.
-import { ButtonPlugin } from 'bootstrap-vue/esm/components/button';
-import { NavbarPlugin } from 'bootstrap-vue/esm/components/navbar';
-import { PaginationPlugin } from 'bootstrap-vue/esm/components/pagination';
-import { TablePlugin } from 'bootstrap-vue/esm/components/table';
-// import { ToastPlugin } from 'bootstrap-vue/esm/components/toast';
+// src/components.js
 
 // App Layout.
 import DefaultPage from './layout/DefaultPage.vue';
@@ -20,10 +13,4 @@ export const components = {
   PageFooter,
 };
 
-export const useComponents = {
-  ButtonPlugin,
-  NavbarPlugin,
-  PaginationPlugin,
-  TablePlugin,
-  // ToastPlugin,
-};
+export const useComponents = {};

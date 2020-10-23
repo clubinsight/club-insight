@@ -4,3 +4,12 @@
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../node_modules/bootstrap-vue/src/index.scss';
+
+.site-header { 
+  background: #e6e6fa;
+}
+.site-footer {
+  color: #200040;
+  font-size: 0.8rem;
+  background: #e6e6fa;
+}
